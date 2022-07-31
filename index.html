@@ -1,0 +1,289 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>LinkedIn</title>
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <div class="header">
+      <div class="header__left">
+        <img src="assets/img/linkedin.png" alt="" />
+        <div class="header__search">
+          <i class="material-icons"> search </i>
+          <input type="text" />
+        </div>
+      </div>
+
+      <div class="header__right">
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon"> home </i>
+          <h3>Home</h3>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon"> supervisor_account </i>
+          <h3>My Network</h3>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon"> business_center </i>
+          <h3>Jobs</h3>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon"> chat </i>
+          <h3>Messaging</h3>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon"> notifications </i>
+          <h3>Notifications</h3>
+        </div>
+        <div class="headerOption">
+          <img src="assets/img/profile.jpg" class="material-icons headerOption__icon" alt="">
+          <h3>Me</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Header Ends -->
+
+    <!-- Main Body Starts -->
+    <div class="body__main">
+      <!-- Sidebar Starts -->
+      <div class="sidebar">
+        <div class="sidebar__top">
+          <img src="assets/img/bgc.jpg" alt="" />
+          <img src="assets/img/profile.jpg" class="material-icons sidebar__topAvatar" style="border-radius: 50%; width: auto;" ;" alt="" />
+          <!-- <i class="material-icons sidebar__topAvatar"> account_circle </i> -->
+          <h2>Raza miya</h2>
+          <h4>mdraza.wd@gmail.com</h4>
+        </div>
+
+        <div class="sidebar__stats">
+          <div class="sidebar__stat">
+            <p>Who Viewed You</p>
+            <p class="sidebar__statNumber">5,567</p>
+          </div>
+          <div class="sidebar__stat">
+            <p>Views on post</p>
+            <p class="sidebar__statNumber">6,454</p>
+          </div>
+        </div>
+
+        <div class="sidebar__bottom">
+          <p>Recent</p>
+          <div class="sidebar__recentItem">
+            <span class="sidebar__hash">#</span>
+            <p>reactjs</p>
+          </div>
+          <div class="sidebar__recentItem">
+            <span class="sidebar__hash">#</span>
+            <p>programming</p>
+          </div>
+          <div class="sidebar__recentItem">
+            <span class="sidebar__hash">#</span>
+            <p>softwareengineering</p>
+          </div>
+          <div class="sidebar__recentItem">
+            <span class="sidebar__hash">#</span>
+            <p>design</p>
+          </div>
+          <div class="sidebar__recentItem">
+            <span class="sidebar__hash">#</span>
+            <p>developer</p>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar Ends -->
+
+      <!-- Feed Starts -->
+      <div class="feed">
+        <div class="feed__inputContainer">
+          <div class="feed__input">
+            <i class="material-icons"> create </i>
+            <form>
+              <input data-bs-toggle="modal" data-bs-target="#post-add-modal" type="text" />
+              <button type="submit">Send</button>
+            </form>
+          </div>
+
+          <div class="feed__inputOptions">
+            <div class="inputOption">
+              <i style="color: #70b5f9" class="material-icons"> insert_photo </i>
+              <h4>Photo</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: #e7a33e" class="material-icons"> subscriptions </i>
+              <h4>Video</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: #c0cbcd" class="material-icons"> event_note </i>
+              <h4>Event</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: #7fc15e" class="material-icons"> calendar_view_day </i>
+              <h4>Write Article</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Post Starts -->
+        <div class="post">
+          <div class="post__header">
+            <img src="assets/img/profile.jpg" class="material-icons sidebar__topAvatar" alt="">
+            <div class="post__info">
+              <h2>Raza Vai</h2>
+              <p>Mern Developer</p>
+            </div>
+          </div>
+
+          <div class="post__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum odit, illum ullam nisi veniam culpa ut assumenda perspiciatis placeat fugiat est, in architecto harum officia qui totam at ipsum ipsam unde error a beatae itaque. Quo consectetur maxime vel rerum voluptates voluptas neque saepe veniam, maiores natus vero totam sed. Explicabo ab, nihil necessitatibus ad laudantium eos ullam quas possimus aperiam ut vitae fugiat dolorem.</p>
+          </div>
+
+          <div class="feed__inputOptions">
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> thumb_up </i>
+              <h4>Like</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> comment </i>
+              <h4>Comment</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> share </i>
+              <h4>Share</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> send </i>
+              <h4>Send</h4>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post__header">
+            <img src="assets/img/profile.jpg" class="material-icons sidebar__topAvatar" alt="">
+            <div class="post__info">
+              <h2>Raza Vai</h2>
+              <p>Mern Developer</p>
+            </div>
+          </div>
+
+          <div class="post__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum odit, illum ullam nisi veniam culpa ut assumenda perspiciatis placeat fugiat est, in architecto harum officia qui totam at ipsum ipsam unde error a beatae itaque. Quo consectetur maxime vel rerum voluptates voluptas neque saepe veniam, maiores natus vero totam sed. Explicabo ab, nihil necessitatibus ad laudantium eos ullam quas possimus aperiam ut vitae fugiat dolorem.</p>
+          </div>
+
+          <div class="feed__inputOptions">
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> thumb_up </i>
+              <h4>Like</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> comment </i>
+              <h4>Comment</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> share </i>
+              <h4>Share</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> send </i>
+              <h4>Send</h4>
+            </div>
+          </div>
+        </div>
+        <!-- Post Ends -->
+
+        
+      </div>
+      <!-- Feed Ends -->
+
+      <!-- Widgets Starts -->
+      <div class="widgets">
+        <div class="widgets__header">
+          <h2>LinkedIn Clone</h2>
+          <i class="material-icons"> info </i>
+        </div>
+        <div class="widgets__article">
+          <div class="widgets__articleLeft">
+            <i class="material-icons"> fiber_manual_record </i>
+          </div>
+          <div class="widgets__articleRight">
+            <h4>Coding LinkedIn Clone</h4>
+            <p>Top news - 4500 readers</p>
+          </div>
+        </div>
+
+        <div class="widgets__article">
+          <div class="widgets__articleLeft">
+            <i class="material-icons"> fiber_manual_record </i>
+          </div>
+          <div class="widgets__articleRight">
+            <h4>Coding LinkedIn Clone</h4>
+            <p>Top news - 4500 readers</p>
+          </div>
+        </div>
+
+        <div class="widgets__article">
+          <div class="widgets__articleLeft">
+            <i class="material-icons"> fiber_manual_record </i>
+          </div>
+          <div class="widgets__articleRight">
+            <h4>Coding LinkedIn Clone</h4>
+            <p>Top news - 4500 readers</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Widgets Ends -->
+    </div>
+
+
+
+    <!-- creat Popup start -->
+    <div class="modal fade " id="post-add-modal">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-body bg-primary">
+                  <h2 class="text-white">Add New Post</h2>
+                  <div class="mcg"></div>
+                  <form class=" bg-primary text-white" id="add-post-form">
+
+                      <div class="my-3">
+                          <label for="">Author Name</label>
+                          <input name="aname" class="form-control" type="text">
+                      </div>
+                      <div class="my-3">
+                          <label for="">Author photo</label>
+                          <input name="aphoto" class="form-control" type="text">
+                      </div>
+                      <div class="my-3">
+                          <label for="">Post Name</label>
+                          <input name="pname" class="form-control" type="text">
+                      </div>
+                      <div class="my-3">
+                          <label for="">Post Photo</label>
+                          <input name="pphoto" class="form-control" type="text">
+                      </div>
+
+                      <input class="w-100 form-control btn-warning"  type="submit" value="Submit">
+
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!-- creat Popup end -->
+
+
+    <!-- Main Body Ends -->
+
+    <script src="./assets/./js/bootstrap.min.js"></script>
+    <script src="./assets/./js/function.js"></script>
+    <script src="./assets/./js/main.js"></script>
+  </body>
+</html>
